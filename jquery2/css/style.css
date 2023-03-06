@@ -1,0 +1,25 @@
+h2,h3,.small-items1, .small-items{
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: block;
+}
+.items{
+    width: 500px;
+    height: 242px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.list{
+    width: 600px;
+    height: 278px;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+.box{
+    width: 700px;
+    height:600px;
+    border: 1px solid black;
+}

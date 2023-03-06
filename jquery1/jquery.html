@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .active{
+            transform: rotate(90deg);
+        }
+        .active1{
+            background-image: url(../../brandboy/brand-boy/image/my-accout/arrow-right-ornge.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: co;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+        }
+        .blue{
+            color: blue;
+        }
+        .text{
+            padding: 50px;
+            background-color: gray;
+            /* display: none; */
+        }
+    </style>
+</head>
+<body>
+    <!-- <button class="btn" onclick="appendText()"> <img src="./arrow-chevron-down-1.svg" alt="2" class="errow"> html</button>
+    <button class="stop">val</button>
+    <button class="text">text</button>
+    <p class="text2">heloo</p>
+    <p class="text3">heloo1</p>
+    <p class="text4">helo3</p>
+
+    <div class="box"></div>
+
+    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perspiciatis ipsam voluptatibus odio, explicabo lorem35  quia illum omnis, molestiae odit fuga officiis necessitatibus at ea deleniti distinctio? Rem, facere. Consequuntur, officia.
+    </div>
+    <div class="text1">click2</div>
+    <div class="text3">click1 me on</div>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <p class="nisha">hi heloo <b>kishan</b></p>
+      Name: <input type="text" id="test" value="Mickey Mouse"></p>
+      <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p> -->
+<!-- <p class="txet3">heloo nisha</p> -->
+<img src="/arrow-chevron-down-1.svg" alt="jQuery" width="100" height="140">
+
+<p>Click the button to insert text after the image.</p>
+<h2 class="blue">heloo</h2>
+<button class="btn">Insert after</button>
+<div class="box"></div>
+
+    <script>
+        $(document).ready(function(){
+            // $("button").click(function(){
+
+            //    $(".box").animate({left :'250px',opacity:'.9'});
+            //    $(".box").animate({top :'250px',opacity:'.7'});
+            //    $(".box").animate({left :'0px',opacity:'.5'});
+            //    $(".box").animate({top :'30px',opacity:'.2'});
+
+
+            // });
+            // $("button").click(function(){
+            //    $(".errow").toggleClass("active1");
+
+            // });
+            // $(".text1").click(function(){
+            //    $(".text").fadeIn(1000);
+            // });
+        // });
+        // $(document).ready(function(){
+        //     $(".btn").click(function(){
+        //         $(".text").hide(5000 , function(){
+        //             alert ('heloo world');
+        //         });
+        //     });
+        //     // $(".stop").click(function(){
+        //     //     $(".text").stop();
+        //     // })
+        // })
+            // $(".btn").click(function(){
+            //     $('.text').slideUp(3000).slideDown(3000).css("color","red");
+            // });  
+        
+            // $(".btn").click(function(){
+            //     alert("heloo"+ $(".nisha").text());
+            // });
+            // $(".stop").click(function(){
+            //     alert('heloo' +$(".nisha").html());
+            // })
+            // $(".btn").click(function(){
+            //     alert($("#test").val());
+            // })
+            // $(".btn").click(function(){
+            //     $( ".text2" ).html("<b>krishiv</b>");
+            // })
+            // $(".stop").click(function(){
+            //     $("#test").val("karnav");
+            // })
+            // $(".btn").click(function(){
+            //     $(".text3").text("heloo essence");
+            // })
+            // $(".btn"). click(function(){
+            //     $(".nisha").html(function(i, originaldata){
+            //         return "old data:"+ originaldata + "New data:I am in <b> office </b>"
+            //     });
+        
+//         // });
+
+
+// function afterText(){
+//     alert("well come");
+//   var txt1 = "<b>I </b>";           // Create element with HTML
+//   var txt2 = $("<i></i>").text("love ");  // Create with jQuery
+//   var txt3 = document.createElement("b");   // Create with DOM
+//   txt3.innerHTML = "jQuery!";
+//   $("img").after(txt1, txt2, txt3);    // Insert new elements after img
+// }
+
+// });
+$(".btn").click(function(){
+    var text="";
+    text +="width of div is:"+$(window).width();
+    text +="height of the div is:"+ $(window).height();
+    alert(text);
+});
+});
+
+    </script>
+    
+</body>
+</html>
